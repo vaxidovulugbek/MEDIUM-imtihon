@@ -1,0 +1,137 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 60px;
+  border-right: 1px solid #d2d2d2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  padding: 0 16px;
+  /* margin: 20px; */
+  /* padding-bottom: 60px; */
+}
+.menu-img {
+  width: 40px;
+  height: 22px;
+  object-fit: cover;
+  padding: 40px 0;
+}
+.menu-nav {
+  display: flex;
+  flex-direction: column;
+}
+.menu-icon {
+  margin: 14px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #757575;
+}
+.menu-icon:hover {
+  color: #000;
+}
+.menu-btn {
+  width: 40px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  border: none;
+  padding:  10px 0px;
+  border-radius: 50%;
+  background-color: #512DA8;
+  font-size: 18px;
+  color: #fff;
+  margin-left: 10px;
+}
+.menu-hr {
+  margin: 16px;
+  font-size: 20px;
+  width: 40%;
+  height: 1px;
+  background-color: #bbbbbb;
+  display: inline-block;
+  color: #E6E6E6;
+}
+.menu-content {
+  display: flex;
+}
+.menu-modal {
+  position: fixed;
+  left: 10px;
+  bottom: 90px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background-color: #fff;
+}
+.menu-modal__first {
+  border-bottom: 1px solid #b0acac;
+}
+.menu-modal__text {
+  padding: 14px 20px;
+}
+.menu-modal__second {
+  border-bottom: 1px solid #b0acac;
+}
+.menu-modal__third {
+  display: flex;
+  align-items: center;
+  padding: 14px 20px;
+}
+.menu-button {
+  cursor: pointer;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 50%;
+  background-color: #512DA8;
+  font-size: 18px;
+  color: #fff;
+  margin-right: 12px;
+}
+.menu-modal-texts {
+  font-size: 14px;
+}
+.menu-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70%;
+}
+
+@media screen and (max-width:1072px){
+  .menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 96%;
+    height: 60px;
+    position: fixed;
+    right: 0 !important;
+    bottom: 0 !important;
+    background-color: #fff;
+  }
+  .menu-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    border: 1px solid #000;
+    background-color: #fff;
+  }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

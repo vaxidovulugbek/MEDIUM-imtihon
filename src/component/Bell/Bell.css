@@ -1,0 +1,47 @@
+.bell {
+  display: flex;
+  justify-content: space-between;
+}
+.bell__content {
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 160px;
+}
+.bell__title {
+  margin: 52px 0;
+  font-size: 42px;
+  font-weight: 700;
+  color: #292929;
+}
+.bell__subheader {
+  display: flex;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #000;
+}
+.bell__all {
+  margin-right: 20px;
+  color: #292929;
+  font-size: 14px;
+}
+.bell__responses {
+  color: #757575;
+  font-size: 14px;
+}
+.bell__info {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.bell__text {
+  color: #757575;
+  font-size: 14px;
+}
+.bell__subtext {
+  color: #1A8917;
+  font-size: 14px;
+}
+
+
+
+
+

@@ -1,0 +1,130 @@
+.moreabout {
+  display: flex;
+  justify-content: space-between;
+}
+.moreabout__content {
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 150px;
+}
+.moreabout__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.moreabout__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.moreabout__header {
+  display: flex;
+  align-items: center;
+}
+.moreabout__name {
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 6px;
+}
+.moreabout__may {
+  font-size: 14px;
+  color: #979797;
+}
+.moreabout__navbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.moreicons {
+  font-size: 20px;
+  cursor: pointer;
+  color: #A8A8A8;
+}
+.moreicons:hover {
+  color: #000;
+}
+.moreabout-title {
+  font-size: 30px;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.moreabout-img {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 30px;
+}
+.moreabout-fulldesc {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.moreabout__navlink {
+  position: fixed;
+  left: 35%;
+  bottom: 0;
+  background-color: #fff;
+  display: flex;
+  padding: 8px 18px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  display: inline-flex;
+  margin-bottom: 26px;
+  color: #757575;
+  
+}
+.moreabout__navlink-handler {
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.moreabout__navlink-comments {
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+  margin-left: 7px;
+}
+.moreabout__navlink-handnum {
+  padding: 0 14px 0 0;
+  border-right: 0.3px solid #a9a9a9;
+  margin-left: 3px;
+}
+.moreabout__navlink-comments .bx-comment {
+  margin: 0 0 0 14px;
+}
+.moreabout__navlink-commentnum {
+  padding: 0 14px 0 3px;
+  border-right: 0.3px solid #a9a9a9;
+}
+.moreabout__navlink .bx-dots-horizontal-rounded{
+    margin-left: 14px;
+    cursor: pointer;
+}
+.df {
+  display: flex;
+}
+.ai {
+  align-items: center;
+}
+
+.moreabout__svgcomment {
+  margin: 0 0 0 14px;
+}
+.moreabout__svgcommentt {
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

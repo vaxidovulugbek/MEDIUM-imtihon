@@ -1,0 +1,96 @@
+.SaveModal {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  position: fixed;
+  left: 20%;
+  top: 10%;
+  background-color: #fff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 56px;
+  z-index: 10;
+}
+.SaveModal__contaner {
+  width: 50%;
+  margin: 0 auto;
+}
+.SaveModal__title {
+  text-align: center;
+  font-size: 36px;
+  color: #292929;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+.SaveModal__input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  padding: 4px 0;
+  font-size: 16px;
+  margin-bottom: 38px;
+}
+.SaveModal__text {
+  color: #1A8917;
+  margin-bottom: 20px;
+}
+.SaveModal__check {
+  display: flex;
+  align-items: center;
+}
+.SaveModal__check-input {
+  width:16px;
+  height: 16px;
+  margin-right: 6px;
+}
+.SaveModal__btn-group {
+  display: flex;
+  align-items: center;
+  margin-top: 130px;
+  justify-content: center;
+}
+.SaveModal__cancelbtn {
+  padding: 8.5px 20px;
+  border-radius: 22px;
+  border: 1px solid #000;
+  background-color: transparent;
+  margin-right: 6px;
+  cursor: pointer;
+}
+.SaveModal__create-btn {
+  padding: 10px 20px;
+  border-radius: 22px;
+  border: none;
+  background-color: #1A8917;
+  color: #fff;
+  margin-right: 6px;
+  cursor: pointer;
+}
+.SaveModal__close {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  right: 20px;
+  top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.SaveModalbg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: #ffffffde;
+}
+
+
+
+
+
+
+
+
+
+

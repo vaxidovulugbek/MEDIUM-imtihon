@@ -1,0 +1,141 @@
+/* .signup {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.signup__form {
+  display: flex;
+  flex-direction: column;
+}
+.signup__input {
+  padding: 10px 16px;
+  margin-bottom: 20px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+.signup__btn {
+  display: flex;
+  justify-content: flex-start;
+  display: inline-block;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 20px;
+} */
+
+
+
+
+
+
+
+.signup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-validation {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.signup__img-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  background-color: #CDB294;
+}
+.signup__btnlink{
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  border-radius: 99px;
+  color: #fff;
+  background: #152540;
+  cursor: pointer;
+}
+.signup__btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  border-radius: 99px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  color: #fff !important;
+  background: #152540;
+  border: none;
+  cursor: pointer;
+}
+.signup__btnlink {
+  color: #fff !important;
+}
+.signup__input {
+  width: 330px;
+  height: 46px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 0 20px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #B4B4BB;
+  background-color: #fff;
+  color: #aaa;
+}
+.signup__form {
+  display: flex;
+  flex-direction: column;
+}
+.signup__link {
+  color: #549FF9;
+  text-decoration: none;
+}
+.signup__nextpage {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 21px;
+  color: #000;
+}
+.signup__text {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 51px;
+  margin-bottom: 10px;
+  color: #000;
+}
+.signup__info {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.signup__img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+}
+
+
+
+
+

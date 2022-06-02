@@ -1,0 +1,106 @@
+.sidebar {
+  width: 23%;
+  border-left: 1px solid #acacac;
+  height: auto;
+  /* text-align: center; */
+  padding-top: 10px;
+}
+.sidebar {
+  padding: 40px 24px;
+}
+.sidebar__getbtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 100px;
+  background-color: #191919;
+  color: #fff;
+  border-radius: 24px;
+  margin-bottom: 40px;
+}
+.df {
+  display: flex;
+}
+.ai {
+  align-items: center;
+}
+.sidebar__searchgroup {
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 24px;
+  margin-bottom: 40px;
+}
+.sidebar__input {
+  width: 95%;
+  border: none;
+  outline: none;
+  margin-left: 6px;
+}
+.sidebar__w {
+  margin-bottom: 18px;
+}
+.sidebar__dot {
+  width: 12px;
+  height: 12px;
+  background-color: #4bc457;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+.sidebar__whattext {
+  font-weight: 700;
+}
+.sidebar__icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.sidebar__titlee {
+  font-size: 14px;
+  font-weight: 500;
+}
+.sidebar__on {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 22px;
+  margin-top: 10px;
+}
+.sidebar__subtexts {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0 20px 0 ;
+  font-size: 20px;
+  font-weight: 700;
+}
+.sidebar__see-span {
+  color: #1A8917;
+  cursor: pointer;
+  margin-bottom: 30px;
+  font-size: 14px;
+  display: inline-block;
+}
+.sidebar__see-span:hover {
+  color: #000;
+}
+.sidebar__recomment {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.sidebar__btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.sidebar__btn {
+  padding: 8px 20px ;
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+}
+
