@@ -5,7 +5,8 @@ import {faHouse,faBell,faBookmark,faSdCard,faPenToSquare} from '@fortawesome/fre
 import './Menu.css'
 import { BrowserRouter, Link, NavLink } from 'react-router-dom'
 
-function Menu({comments}) {
+function Menu({comments,namehendler}) {
+ 
   let [colorone, setcolorone] = useState(true)
   let [colortwo, setcolortwo] = useState(false)
   let [colorthree, setcolorthree] = useState(false)
@@ -65,7 +66,7 @@ function Menu({comments}) {
           <div className='menu-modal__third'>
               <button className='menu-button'>U</button>
               <div className='menu-modal__inputs-info'>
-                <p className='menu-modal-texts'>vkh</p>
+                <p className='menu-modal-texts'>{namehendler}</p>
                 <p className='menu-modal-texts'>@vulubek</p>
               </div>
           </div>

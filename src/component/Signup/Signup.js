@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Signup.css'
 import signup from '../../assets/img/signup.png'
 import { Link } from 'react-router-dom'
-function Signup({setinputgmail}) {
+function Signup({setinputgmail,setnamehendler,namehendlering}) {
 
   let [validation, setvalidation] = useState(1)
   let [validation1, setvalidation1] = useState(1)
@@ -16,6 +16,7 @@ function Signup({setinputgmail}) {
     else {
       setvalidation(true)
     }
+    namehendlering(e.target.value)
   }
   let nameHendlervalue = () => {
 
@@ -73,3 +74,4 @@ function Signup({setinputgmail}) {
   )
 }
 export default Signup
+

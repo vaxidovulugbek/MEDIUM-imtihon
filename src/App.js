@@ -37,33 +37,16 @@ function App() {
   let [inputnameetwo, setinputnameetwo] = useState("")
   let [savetarget, setsavetarget] = useState([])
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   let [inputwatch, setinputwatch] = useState("")
   let [savetargetwatch, setwatch] = useState([])
+
+  let [namehendler, namehendlering] = useState("")
 
   return (
     <div className="App">    
       <Routes>
-          <Route path='/' element={ <Signup setinputnameetwo={setinputnameetwo} />}></Route>
-          <Route path='menu' element={ <Menu comments={comments}  inputnameetwo={inputnameetwo}/>}></Route>
+          <Route path='/' element={ <Signup namehendler={namehendler} namehendlering={namehendlering} setinputnameetwo={setinputnameetwo} />}></Route>
+          <Route path='menu' element={ <Menu comments={comments}  inputnameetwo={inputnameetwo} namehendler={namehendler} />}></Route>
           <Route path='save' element={ <Savee savetarget={savetarget} savemodal={savemodal}
            setsavemodal={setsavemodal}
            modalobj={modalobj}

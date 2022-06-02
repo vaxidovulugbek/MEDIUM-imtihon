@@ -6,6 +6,7 @@ import {faHouse,faBell,faHand, faCheck} from '@fortawesome/free-solid-svg-icons'
 import {Object} from '../Object/Object'
 import Reply from './Reply/Reply';
 function Comments({comments,el,objectnewArr,setComments}) {
+  let commentref = useRef(null)
   let [status, setStatus] = useState("")
   let [newstatus, setNewStatus] = useState(el)
   let addonchange = (e) => {
@@ -19,6 +20,7 @@ function Comments({comments,el,objectnewArr,setComments}) {
         time:"1 min ago",
     },...newstatus])
     setStatus("")
+    commentref.current.value = ""
 }
 let closeHendler = () => {
   setComments(false)
@@ -38,7 +40,7 @@ let closeHendler = () => {
                     <button className='comments__icon-btn'>U</button>
                     <p className='comments__name'>Ulugbek</p>
                   </div>
-                  <textarea id='comment=textarea' className='comments__textarea' placeholder='What are you thought' value={status} onChange={addonchange}></textarea>
+                  <textarea ref={commentref} id='comment=textarea' className='comments__textarea' placeholder='What are you thought' value={status} onChange={addonchange}></textarea>
                   <div className='comments__input-info'>
                       <div className='comments__font df ai'>
                           <p className='comments__bold'>B</p>

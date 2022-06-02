@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import './Reply.css'
 function Reply({item,objectnewArr,objreplayName}) {
 
+  let reflyref = useRef(null)
   let [replay, setreplay] = useState("")
   let [disablet, setdisablet] = useState(true)
   let [newreplay, setNewreplay] = useState(objreplayName)
@@ -29,6 +30,7 @@ function Reply({item,objectnewArr,objreplayName}) {
     else {
       setdisablet(true)
     }
+    reflyref.current.value = ""
   }
   let canselreply = () => {
     setreplystatus(true)
@@ -88,7 +90,7 @@ function Reply({item,objectnewArr,objreplayName}) {
        })
      }
          <div className={`reply ${replystatus ? "replystatus-show" : ""}`}>
-           <textarea className='replytext-area' placeholder='Repliying to Alyona Ryzhova' onChange={replyadd} ></textarea>
+           <textarea ref={reflyref} className='replytext-area' placeholder='Repliying to Alyona Ryzhova' onChange={replyadd} ></textarea>
            <div className='reply__info'>
              <div className='comments__font df ai'>
                 <p className='comments__bold'>B</p>
