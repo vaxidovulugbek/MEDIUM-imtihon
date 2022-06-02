@@ -41,6 +41,7 @@ function App() {
   let [savetargetwatch, setwatch] = useState([])
 
   let [namehendler, namehendlering] = useState("")
+  let [newcomment, setnewcomment] = useState(null)
 
   return (
     <div className="App">    
@@ -80,7 +81,7 @@ function App() {
             savetargetwatch={savetargetwatch}
 
             settextarea={settextarea} textarea={textarea} newtextarea={newtextarea} setnewtextarea={setnewtextarea} Titleinput={Titleinput} setTitleinput={setTitleinput}  published={published} setpublished={setpublished} newinput={newinput} setnewinput={setnewinput} newtextcontent={newtextcontent} setnewtextcontent={setnewtextcontent}  />}></Route>
-          <Route path='moreabout/:id' element={ <MoreAbout savetargetwatch={savetargetwatch} published={published} setComments={setComments} comments={comments} />}></Route>
+          <Route path='moreabout/:id' element={ <MoreAbout newcomment={newcomment} setnewcomment={setnewcomment} savetargetwatch={savetargetwatch} published={published} setComments={setComments} comments={comments} />}></Route>
           <Route path='bell' element={ <Bell />}></Route>
           <Route path='savetargetinfo/:id' element={ <SaveTargetInfo savetarget={savetarget} modalobjtwo={modalobjtwo} setComments={setComments} comments={comments} />}></Route>
           <Route path='saveall' element={ <SaveAll modalobjtwo={modalobjtwo}/>}></Route>

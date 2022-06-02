@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faHouse,faBell,faHand, faCheck} from '@fortawesome/free-solid-svg-icons'
 import {Object} from '../Object/Object'
 import Reply from './Reply/Reply';
-function Comments({comments,el,objectnewArr,setComments}) {
+function Comments({comments,el,objectnewArr,setComments,setnewcomment,newcomment}) {
   let commentref = useRef(null)
   let [status, setStatus] = useState("")
   let [newstatus, setNewStatus] = useState(el)
@@ -25,6 +25,8 @@ function Comments({comments,el,objectnewArr,setComments}) {
 let closeHendler = () => {
   setComments(false)
 }
+setnewcomment(newstatus.length)
+// console.log(newstatus.length);
   return (
         <div className='comments-info'>
             <div className={`comments ${comments ? "comments-show" : ""}`}>
